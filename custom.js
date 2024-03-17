@@ -113,6 +113,7 @@ select_trasfer_Click.addEventListener("click", function( )
 
 select_loan_click.addEventListener("click", function( )
 {
+     transferName = " ";
     select_left_table.textContent = "";
     select_balance_print.textContent = `$ 0`;
     totalAmount = 0;
@@ -130,7 +131,7 @@ select_loan_click.addEventListener("click", function( )
 
 select_close_click.addEventListener("click", function( )
 {
-    
+     transferName = " ";
   let   select_close_pin = document.querySelector("#enter_pin");
    let  select_confirm_pin = document.querySelector("#confirm_pin");
 
